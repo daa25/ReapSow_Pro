@@ -1,0 +1,32 @@
+# Ignore environment variables
+.env
+.env.local
+.env.production
+.env.development
+.env.*.txt
+*.env
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Replit
+.replit
+*.replit
+*.pyc
+*.pkl
+*.db
+
+# Mac system files
+.DS_Store
+
+# Logs
+logs/
+*.log
